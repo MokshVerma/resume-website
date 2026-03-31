@@ -9,11 +9,11 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Design System
 
-- [ ] **DSGN-01**: Site has a custom visual identity with defined color palette, typography scale, and spacing system
-- [ ] **DSGN-02**: Site uses a bold, modern aesthetic with dark background and accent colors
+- [x] **DSGN-01**: Site has a custom visual identity with defined color palette, typography scale, and spacing system
+- [x] **DSGN-02**: Site uses a bold, modern aesthetic with dark background and accent colors
 - [ ] **DSGN-03**: Site is fully responsive across mobile (320px), tablet (768px), and desktop (1440px)
-- [ ] **DSGN-04**: Site uses semantic HTML with WCAG 2.1 AA accessible markup (headings, landmarks, contrast)
-- [ ] **DSGN-05**: Site has subtle background gradient or noise texture for visual depth
+- [x] **DSGN-04**: Site uses semantic HTML with WCAG 2.1 AA accessible markup (headings, landmarks, contrast)
+- [x] **DSGN-05**: Site has subtle background gradient or noise texture for visual depth
 
 ### Hero Section
 
@@ -121,11 +121,11 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| DSGN-01 | Phase 1 | Pending |
-| DSGN-02 | Phase 1 | Pending |
+| DSGN-01 | Phase 1 | Complete |
+| DSGN-02 | Phase 1 | Complete |
 | DSGN-03 | Phase 1 | Pending |
-| DSGN-04 | Phase 1 | Pending |
-| DSGN-05 | Phase 1 | Pending |
+| DSGN-04 | Phase 1 | Complete |
+| DSGN-05 | Phase 1 | Complete |
 | HERO-01 | Phase 2 | Pending |
 | HERO-02 | Phase 2 | Pending |
 | HERO-03 | Phase 2 | Pending |

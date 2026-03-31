@@ -32,7 +32,7 @@ Decimal phases appear between their surrounding integers in numeric order.
   5. Responsive breakpoints are configured and the layout adapts between mobile (320px), tablet (768px), and desktop (1440px) widths
 **Plans:** 2 plans
 Plans:
-- [ ] 01-01-PLAN.md -- Scaffold Next.js 15, design tokens in globals.css, root layout with Geist font and semantic HTML
+- [x] 01-01-PLAN.md -- Scaffold Next.js 15, design tokens in globals.css, root layout with Geist font and semantic HTML
 - [ ] 01-02-PLAN.md -- Typed resume data module (lib/data.ts) and responsive placeholder page demonstrating design system
 **UI hint**: yes
 
