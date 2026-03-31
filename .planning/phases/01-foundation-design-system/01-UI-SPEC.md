@@ -5,6 +5,7 @@ status: draft
 shadcn_initialized: false
 preset: none
 created: 2026-04-01
+revised: 2026-04-01
 ---
 
 # Phase 1 — UI Design Contract
@@ -57,36 +58,37 @@ Mono font: **Geist Mono** for code snippets and tech stack labels. Loaded via `n
 
 ### Type Scale
 
+4 sizes only. Larger display sizes are achieved via responsive `clamp()` on the Hero token, not a separate size token.
+
 | Role | Size | Rem | Weight | Line Height | Tailwind Class |
 |------|------|-----|--------|-------------|----------------|
-| Display | 72px | 4.5rem | 700 (bold) | 1.1 | `text-display font-bold leading-display` |
-| H1 | 48px | 3rem | 700 (bold) | 1.2 | `text-h1 font-bold leading-heading` |
-| H2 | 32px | 2rem | 600 (semibold) | 1.2 | `text-h2 font-semibold leading-heading` |
-| H3 | 24px | 1.5rem | 600 (semibold) | 1.3 | `text-h3 font-semibold` |
+| Hero | 48px | 3rem | 700 (bold) | 1.1 | `text-hero font-bold leading-hero` |
+| Heading | 24px | 1.5rem | 700 (bold) | 1.2 | `text-heading font-bold leading-heading` |
 | Body | 16px | 1rem | 400 (regular) | 1.6 | `text-body leading-body` |
 | Small | 14px | 0.875rem | 400 (regular) | 1.5 | `text-sm` |
-| XS | 12px | 0.75rem | 400 (regular) | 1.5 | `text-xs` |
+
+**Design notes:**
+- Hero replaces the old Display (72px) and H1 (48px). The base size is 48px; on desktop, use `clamp(3rem, 5vw + 1rem, 4.5rem)` to scale up to 72px fluidly. This is one token, not two.
+- Heading replaces H2 (32px) and H3 (24px). Differentiate heading levels by context and spacing, not by separate font sizes. Both use 24px bold.
+- Small replaces both the old Small (14px) and XS (12px). Use 14px uniformly for all secondary/meta text to maintain readability.
 
 ### Weights Used
 
-Only two weights to maintain visual hierarchy without clutter:
+Exactly 2 weights:
 
 | Weight | Value | Usage |
 |--------|-------|-------|
-| Regular | 400 | Body text, descriptions, secondary content |
-| Semibold | 600 | H2, H3 headings, labels, navigation items |
-| Bold | 700 | Display text, H1, CTA buttons, impact metrics |
-
-**Note:** Three weights listed but bold and semibold serve distinct roles (display/hero vs section headings). The visual hierarchy is: bold for "look here first," semibold for "this is a section," regular for "read this."
+| Regular | 400 | Body text, descriptions, secondary content, navigation items, labels |
+| Bold | 700 | Hero text, all headings, CTA buttons, impact metric numbers, emphasized text |
 
 ### Responsive Type Behavior
 
 | Role | Mobile (< 768px) | Desktop (>= 768px) |
 |------|-------------------|---------------------|
-| Display | 2.5rem (40px) | 4.5rem (72px) |
-| H1 | 2rem (32px) | 3rem (48px) |
-| H2 | 1.5rem (24px) | 2rem (32px) |
+| Hero | 2.5rem (40px) | Scales via `clamp(3rem, 5vw + 1rem, 4.5rem)` up to 72px |
+| Heading | 1.25rem (20px) | 1.5rem (24px) |
 | Body | 1rem (16px) | 1rem (16px) |
+| Small | 0.875rem (14px) | 0.875rem (14px) |
 
 **Source:** D-05, D-06 (CONTEXT.md) for direction. RESEARCH.md for specific values. Responsive scaling is Claude's Discretion.
 
@@ -140,7 +142,7 @@ Accent is NOT used for: all borders, all hover states generically, decorative ic
 | `#ededed` (foreground) | `#141414` (surface) | 14.6:1 | AAA |
 | `#ededed` (foreground) | `#3b82f6` (accent btn) | 3.8:1 | AA (large text, 14px+ bold) |
 
-**Important:** Accent color at 4.6:1 passes AA for large text (18px+ or 14px+ bold) only. For body-size accent text, use `accent-hover` (#60a5fa) which passes AA at all sizes. Impact metrics are rendered at h3 size (24px) or larger, so #3b82f6 passes.
+**Important:** Accent color at 4.6:1 passes AA for large text (18px+ or 14px+ bold) only. For body-size accent text, use `accent-hover` (#60a5fa) which passes AA at all sizes. Impact metrics are rendered at heading size (24px) or larger, so #3b82f6 passes.
 
 ### Destructive Color
 
@@ -247,7 +249,7 @@ Using Tailwind v4 default breakpoints with mobile-first approach.
 | Element | Mobile (< 768px) | Desktop (>= 768px) |
 |---------|-------------------|---------------------|
 | Page padding (horizontal) | 24px (`px-6`) | 48px (`px-12`) at md, 96px (`px-24`) at lg |
-| Display text | 2.5rem | 4.5rem |
+| Hero text | 2.5rem | clamp(3rem, 5vw + 1rem, 4.5rem) |
 | Max content width | 100% | 896px (`max-w-4xl`) centered |
 | CTA buttons | Full width, stacked | Inline, side by side (`flex gap-4`) |
 
@@ -306,20 +308,17 @@ This is the exact content that goes into the `@theme` blocks in `globals.css`.
 --color-accent-muted: #3b82f615
 ```
 
-**Typography scale:**
+**Typography scale (4 sizes):**
 ```
---text-display: 4.5rem
---text-h1: 3rem
---text-h2: 2rem
---text-h3: 1.5rem
+--text-hero: 3rem
+--text-heading: 1.5rem
 --text-body: 1rem
 --text-sm: 0.875rem
---text-xs: 0.75rem
 ```
 
 **Line heights:**
 ```
---leading-display: 1.1
+--leading-hero: 1.1
 --leading-heading: 1.2
 --leading-body: 1.6
 ```
@@ -360,3 +359,4 @@ This is the exact content that goes into the `@theme` blocks in `globals.css`.
 
 *Phase: 01-foundation-design-system*
 *UI-SPEC created: 2026-04-01*
+*UI-SPEC revised: 2026-04-01 -- fixed typography (7 sizes to 4, 3 weights to 2)*
