@@ -11,7 +11,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 - [x] **DSGN-01**: Site has a custom visual identity with defined color palette, typography scale, and spacing system
 - [x] **DSGN-02**: Site uses a bold, modern aesthetic with dark background and accent colors
-- [ ] **DSGN-03**: Site is fully responsive across mobile (320px), tablet (768px), and desktop (1440px)
+- [x] **DSGN-03**: Site is fully responsive across mobile (320px), tablet (768px), and desktop (1440px)
 - [x] **DSGN-04**: Site uses semantic HTML with WCAG 2.1 AA accessible markup (headings, landmarks, contrast)
 - [x] **DSGN-05**: Site has subtle background gradient or noise texture for visual depth
 
@@ -123,7 +123,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 |-------------|-------|--------|
 | DSGN-01 | Phase 1 | Complete |
 | DSGN-02 | Phase 1 | Complete |
-| DSGN-03 | Phase 1 | Pending |
+| DSGN-03 | Phase 1 | Complete |
 | DSGN-04 | Phase 1 | Complete |
 | DSGN-05 | Phase 1 | Complete |
 | HERO-01 | Phase 2 | Pending |

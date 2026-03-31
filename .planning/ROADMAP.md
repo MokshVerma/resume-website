@@ -33,7 +33,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans:** 2 plans
 Plans:
 - [x] 01-01-PLAN.md -- Scaffold Next.js 15, design tokens in globals.css, root layout with Geist font and semantic HTML
-- [ ] 01-02-PLAN.md -- Typed resume data module (lib/data.ts) and responsive placeholder page demonstrating design system
+- [x] 01-02-PLAN.md -- Typed resume data module (lib/data.ts) and responsive placeholder page demonstrating design system
 **UI hint**: yes
 
 ### Phase 2: Content Sections & Home Page
