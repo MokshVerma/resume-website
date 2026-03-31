@@ -1,26 +1,48 @@
+/* src/app/globals.css */
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
+/* Font integration — MUST use @theme inline for CSS variable references (per RESEARCH.md Pitfall 1) */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Design tokens — all literal values use regular @theme */
+@theme {
+  /* Colors - dark theme (per D-01: dark charcoal background, D-02: electric blue accent) */
+  --color-background: #0a0a0a;
+  --color-foreground: #ededed;
+  --color-muted: #a1a1aa;
+  --color-surface: #141414;
+  --color-border: #27272a;
+
+  /* Accent - electric blue (per D-02: bold accent for highlights, CTAs, impact metrics) */
+  --color-accent: #3b82f6;
+  --color-accent-hover: #60a5fa;
+  --color-accent-muted: #3b82f615;
+
+  /* Typography scale — 4 sizes per UI-SPEC */
+  --text-hero: 3rem;
+  --text-heading: 1.5rem;
+  --text-body: 1rem;
+  --text-sm: 0.875rem;
+
+  /* Line heights per UI-SPEC */
+  --leading-hero: 1.1;
+  --leading-heading: 1.2;
+  --leading-body: 1.6;
+
+  /* Spacing base unit — Tailwind v4 derives all utilities from this (p-1=4px, p-2=8px, etc.) */
+  --spacing: 0.25rem;
 }
 
+/* Background gradient for visual depth (per D-04, DSGN-05) */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-background);
+  background-image: radial-gradient(
+    ellipse 80% 50% at 50% -20%,
+    rgba(59, 130, 246, 0.08),
+    transparent
+  );
+  background-attachment: fixed;
 }
