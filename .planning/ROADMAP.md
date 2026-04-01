@@ -62,7 +62,9 @@ Plans:
   2. On mobile, navigation collapses into a hamburger menu that expands and collapses on tap
   3. The active section is highlighted in the navigation as the user scrolls (scroll spy)
   4. Clicking any navigation link scrolls smoothly to the target section
-**Plans**: TBD
+**Plans:** 1 plan
+Plans:
+- [ ] 03-01-PLAN.md -- Glass/blur sticky nav with scroll spy, mobile hamburger overlay, smooth scroll CSS
 **UI hint**: yes
 
 ### Phase 4: Contact Form & Email Delivery
@@ -101,6 +103,6 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 |-------|---------------|--------|-----------|
 | 1. Foundation & Design System | 2/2 | Complete | 2026-04-01 |
 | 2. Content Sections & Home Page | 0/3 | Planning complete | - |
-| 3. Navigation & Interactivity | 0/TBD | Not started | - |
+| 3. Navigation & Interactivity | 0/1 | Planning complete | - |
 | 4. Contact Form & Email Delivery | 0/TBD | Not started | - |
 | 5. SEO, Animations & Deployment | 0/TBD | Not started | - |
