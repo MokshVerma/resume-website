@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 import type { Experience } from "@/lib/data";
 
 function highlightMetrics(text: string): ReactNode {
-  const metricPattern = /([~]?\$?\d[\d,.]*[MKBmkb]?\+?(?:\s*(?:DAU|%)))/g;
+  const metricPattern = /([~]?\$?\d[\d,.]*[MKBmkb]?\+?(?:\s*(?:DAU|%))?)/g;
   const parts = text.split(metricPattern);
   if (parts.length === 1) return text;
   return parts.map((part, i) =>
