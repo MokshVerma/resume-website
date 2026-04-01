@@ -80,7 +80,7 @@ Plans:
 **Plans:** 2 plans
 Plans:
 - [x] 04-01-PLAN.md -- Install Resend + Zod, create contact schema, API Route Handler with rate limiting and email delivery
-- [ ] 04-02-PLAN.md -- Contact page UI with glassmorphism form card, multi-state feedback, and human verification
+- [x] 04-02-PLAN.md -- Contact page UI with glassmorphism form card, multi-state feedback, and human verification
 **UI hint**: yes
 
 ### Phase 5: SEO, Animations & Deployment

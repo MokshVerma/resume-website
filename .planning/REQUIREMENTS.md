@@ -51,10 +51,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Contact
 
-- [ ] **CNTC-01**: Separate contact page (/contact) with a form (name, email, message fields)
+- [x] **CNTC-01**: Separate contact page (/contact) with a form (name, email, message fields)
 - [x] **CNTC-02**: Contact form submissions are delivered to mokshverma98@gmail.com via Resend
 - [x] **CNTC-03**: Contact form validates inputs client-side and server-side (Zod)
-- [ ] **CNTC-04**: Contact form shows clear loading, success, and error states
+- [x] **CNTC-04**: Contact form shows clear loading, success, and error states
 - [x] **CNTC-05**: Contact API route has rate limiting (1 request per IP per minute)
 
 ### Footer
@@ -142,10 +142,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | NAVG-02 | Phase 3 | Complete |
 | NAVG-03 | Phase 3 | Complete |
 | NAVG-04 | Phase 3 | Complete |
-| CNTC-01 | Phase 4 | Pending |
+| CNTC-01 | Phase 4 | Complete |
 | CNTC-02 | Phase 4 | Complete |
 | CNTC-03 | Phase 4 | Complete |
-| CNTC-04 | Phase 4 | Pending |
+| CNTC-04 | Phase 4 | Complete |
 | CNTC-05 | Phase 4 | Complete |
 | FOOT-01 | Phase 2 | Complete |
 | FOOT-02 | Phase 2 | Complete |
