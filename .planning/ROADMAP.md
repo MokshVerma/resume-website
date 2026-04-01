@@ -46,7 +46,11 @@ Plans:
   3. The skills section shows technical skills grouped by category (Languages, Databases, Streaming, Cloud, AI Tools, Methodologies) as visual chips/tags
   4. The projects section displays Auto-Terminal and Song Hit Predictor 5000 as cards with name, description, tech stack chips, GitHub links, and hover effects
   5. The footer shows GitHub, LinkedIn, and email links plus a downloadable resume PDF link, and education displays degree, university, and graduation year
-**Plans**: TBD
+**Plans:** 3 plans
+Plans:
+- [ ] 02-01-PLAN.md -- Hero section with time-based greeting and CTAs, Experience section with timeline and metric highlighting
+- [ ] 02-02-PLAN.md -- Skills chips grid, Projects glassmorphism cards, Education minimal display
+- [ ] 02-03-PLAN.md -- Footer with social icons in layout.tsx, page assembly wiring all sections together
 **UI hint**: yes
 
 ### Phase 3: Navigation & Interactivity
@@ -95,8 +99,8 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|---------------|--------|-----------|
-| 1. Foundation & Design System | 0/2 | Planning complete | - |
-| 2. Content Sections & Home Page | 0/TBD | Not started | - |
+| 1. Foundation & Design System | 2/2 | Complete | 2026-04-01 |
+| 2. Content Sections & Home Page | 0/3 | Planning complete | - |
 | 3. Navigation & Interactivity | 0/TBD | Not started | - |
 | 4. Contact Form & Email Delivery | 0/TBD | Not started | - |
 | 5. SEO, Animations & Deployment | 0/TBD | Not started | - |
