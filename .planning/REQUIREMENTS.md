@@ -17,15 +17,15 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Hero Section
 
-- [ ] **HERO-01**: Hero displays Moksh's name, title (Backend Engineer), and a compelling one-liner
-- [ ] **HERO-02**: Hero has clear CTAs (download resume PDF, go to contact)
-- [ ] **HERO-03**: Hero shows a dynamic time-based greeting (Good morning/afternoon/evening)
+- [x] **HERO-01**: Hero displays Moksh's name, title (Backend Engineer), and a compelling one-liner
+- [x] **HERO-02**: Hero has clear CTAs (download resume PDF, go to contact)
+- [x] **HERO-03**: Hero shows a dynamic time-based greeting (Good morning/afternoon/evening)
 
 ### Experience
 
-- [ ] **EXPR-01**: Experience section shows work history as a timeline (Expedia, Radio Mirchi, Gaana, EPAM)
-- [ ] **EXPR-02**: Each role displays company, title, dates, location, and impact bullet points
-- [ ] **EXPR-03**: Impact metrics are visually highlighted (bold numbers like 380M+, 50M DAU, $200K+)
+- [x] **EXPR-01**: Experience section shows work history as a timeline (Expedia, Radio Mirchi, Gaana, EPAM)
+- [x] **EXPR-02**: Each role displays company, title, dates, location, and impact bullet points
+- [x] **EXPR-03**: Impact metrics are visually highlighted (bold numbers like 380M+, 50M DAU, $200K+)
 
 ### Skills
 
@@ -126,12 +126,12 @@ Which phases cover which requirements. Updated during roadmap creation.
 | DSGN-03 | Phase 1 | Complete |
 | DSGN-04 | Phase 1 | Complete |
 | DSGN-05 | Phase 1 | Complete |
-| HERO-01 | Phase 2 | Pending |
-| HERO-02 | Phase 2 | Pending |
-| HERO-03 | Phase 2 | Pending |
-| EXPR-01 | Phase 2 | Pending |
-| EXPR-02 | Phase 2 | Pending |
-| EXPR-03 | Phase 2 | Pending |
+| HERO-01 | Phase 2 | Complete |
+| HERO-02 | Phase 2 | Complete |
+| HERO-03 | Phase 2 | Complete |
+| EXPR-01 | Phase 2 | Complete |
+| EXPR-02 | Phase 2 | Complete |
+| EXPR-03 | Phase 2 | Complete |
 | SKLL-01 | Phase 2 | Pending |
 | SKLL-02 | Phase 2 | Pending |
 | PROJ-01 | Phase 2 | Pending |

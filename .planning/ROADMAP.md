@@ -48,7 +48,7 @@ Plans:
   5. The footer shows GitHub, LinkedIn, and email links plus a downloadable resume PDF link, and education displays degree, university, and graduation year
 **Plans:** 3 plans
 Plans:
-- [ ] 02-01-PLAN.md -- Hero section with time-based greeting and CTAs, Experience section with timeline and metric highlighting
+- [x] 02-01-PLAN.md -- Hero section with time-based greeting and CTAs, Experience section with timeline and metric highlighting
 - [ ] 02-02-PLAN.md -- Skills chips grid, Projects glassmorphism cards, Education minimal display
 - [ ] 02-03-PLAN.md -- Footer with social icons in layout.tsx, page assembly wiring all sections together
 **UI hint**: yes
