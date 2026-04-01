@@ -18,15 +18,16 @@ Visitors can quickly understand Moksh's professional background and reach out �
 - ✓ Typed resume data module with all content — Phase 1
 - ✓ Bold, modern single-page design with hero, experience, skills, and projects sections — Phase 2
 - ✓ Content sourced from resume with all work experience, education, skills, and projects — Phase 2
+- ✓ Sticky header navigation with section anchor links — Phase 3
+- ✓ Mobile hamburger menu with full-screen overlay — Phase 3
+- ✓ Scroll spy active section highlighting — Phase 3
+- ✓ Smooth scroll navigation — Phase 3
 
 ### Active
 
-- [ ] Bold, modern single-page design with hero, experience, skills, and projects sections
 - [ ] Separate contact page with a form that sends submissions via email
-- [ ] Responsive design that works well on mobile, tablet, and desktop
 - [ ] Deployed to mokshverma.in via Vercel
 - [ ] Fast loading, SEO-friendly (meta tags, Open Graph)
-- [ ] Content sourced from resume: work experience (Expedia, Radio Mirchi, Gaana, EPAM), education, technical skills, personal projects
 
 ### Out of Scope
 
@@ -78,4 +79,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-01 after Phase 2 completion*
+*Last updated: 2026-04-01 after Phase 3 completion*
