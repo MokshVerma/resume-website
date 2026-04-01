@@ -16,6 +16,8 @@ Visitors can quickly understand Moksh's professional background and reach out �
 - ✓ Responsive layout foundation (mobile/tablet/desktop breakpoints) — Phase 1
 - ✓ Semantic HTML with accessibility landmarks — Phase 1
 - ✓ Typed resume data module with all content — Phase 1
+- ✓ Bold, modern single-page design with hero, experience, skills, and projects sections — Phase 2
+- ✓ Content sourced from resume with all work experience, education, skills, and projects — Phase 2
 
 ### Active
 
@@ -76,4 +78,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-01 after Phase 1 completion*
+*Last updated: 2026-04-01 after Phase 2 completion*
