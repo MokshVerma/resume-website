@@ -79,7 +79,7 @@ Plans:
   5. Rapid repeated submissions from the same IP are rate-limited (1 per minute) and the user sees an appropriate message
 **Plans:** 2 plans
 Plans:
-- [ ] 04-01-PLAN.md -- Install Resend + Zod, create contact schema, API Route Handler with rate limiting and email delivery
+- [x] 04-01-PLAN.md -- Install Resend + Zod, create contact schema, API Route Handler with rate limiting and email delivery
 - [ ] 04-02-PLAN.md -- Contact page UI with glassmorphism form card, multi-state feedback, and human verification
 **UI hint**: yes
 
