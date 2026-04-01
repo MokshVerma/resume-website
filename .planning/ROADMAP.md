@@ -77,7 +77,10 @@ Plans:
   3. Invalid inputs (empty fields, malformed email) are caught both client-side (instant feedback) and server-side (Zod validation), with visible error messages
   4. The form shows distinct loading, success, and error states so the user always knows what is happening
   5. Rapid repeated submissions from the same IP are rate-limited (1 per minute) and the user sees an appropriate message
-**Plans**: TBD
+**Plans:** 2 plans
+Plans:
+- [ ] 04-01-PLAN.md -- Install Resend + Zod, create contact schema, API Route Handler with rate limiting and email delivery
+- [ ] 04-02-PLAN.md -- Contact page UI with glassmorphism form card, multi-state feedback, and human verification
 **UI hint**: yes
 
 ### Phase 5: SEO, Animations & Deployment
@@ -104,5 +107,5 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 | 1. Foundation & Design System | 2/2 | Complete | 2026-04-01 |
 | 2. Content Sections & Home Page | 0/3 | Planning complete | - |
 | 3. Navigation & Interactivity | 0/1 | Planning complete | - |
-| 4. Contact Form & Email Delivery | 0/TBD | Not started | - |
+| 4. Contact Form & Email Delivery | 0/2 | Planning complete | - |
 | 5. SEO, Animations & Deployment | 0/TBD | Not started | - |
