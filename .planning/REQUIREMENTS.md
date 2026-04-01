@@ -44,10 +44,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Navigation
 
-- [ ] **NAVG-01**: Sticky header navigation with anchor links to each section
-- [ ] **NAVG-02**: Mobile hamburger menu that expands/collapses
-- [ ] **NAVG-03**: Scroll spy highlights the active section in navigation
-- [ ] **NAVG-04**: Smooth scroll behavior when clicking nav links
+- [x] **NAVG-01**: Sticky header navigation with anchor links to each section
+- [x] **NAVG-02**: Mobile hamburger menu that expands/collapses
+- [x] **NAVG-03**: Scroll spy highlights the active section in navigation
+- [x] **NAVG-04**: Smooth scroll behavior when clicking nav links
 
 ### Contact
 
@@ -138,10 +138,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | PROJ-02 | Phase 2 | Complete |
 | PROJ-03 | Phase 2 | Complete |
 | EDUC-01 | Phase 2 | Complete |
-| NAVG-01 | Phase 3 | Pending |
-| NAVG-02 | Phase 3 | Pending |
-| NAVG-03 | Phase 3 | Pending |
-| NAVG-04 | Phase 3 | Pending |
+| NAVG-01 | Phase 3 | Complete |
+| NAVG-02 | Phase 3 | Complete |
+| NAVG-03 | Phase 3 | Complete |
+| NAVG-04 | Phase 3 | Complete |
 | CNTC-01 | Phase 4 | Pending |
 | CNTC-02 | Phase 4 | Pending |
 | CNTC-03 | Phase 4 | Pending |

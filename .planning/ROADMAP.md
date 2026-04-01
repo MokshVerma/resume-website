@@ -64,7 +64,7 @@ Plans:
   4. Clicking any navigation link scrolls smoothly to the target section
 **Plans:** 1 plan
 Plans:
-- [ ] 03-01-PLAN.md -- Glass/blur sticky nav with scroll spy, mobile hamburger overlay, smooth scroll CSS
+- [x] 03-01-PLAN.md -- Glass/blur sticky nav with scroll spy, mobile hamburger overlay, smooth scroll CSS
 **UI hint**: yes
 
 ### Phase 4: Contact Form & Email Delivery
