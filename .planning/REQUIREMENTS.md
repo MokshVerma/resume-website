@@ -59,8 +59,8 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Footer
 
-- [ ] **FOOT-01**: Footer displays social links (GitHub, LinkedIn, email)
-- [ ] **FOOT-02**: Footer includes a downloadable resume PDF link
+- [x] **FOOT-01**: Footer displays social links (GitHub, LinkedIn, email)
+- [x] **FOOT-02**: Footer includes a downloadable resume PDF link
 
 ### SEO & Performance
 
@@ -147,8 +147,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | CNTC-03 | Phase 4 | Pending |
 | CNTC-04 | Phase 4 | Pending |
 | CNTC-05 | Phase 4 | Pending |
-| FOOT-01 | Phase 2 | Pending |
-| FOOT-02 | Phase 2 | Pending |
+| FOOT-01 | Phase 2 | Complete |
+| FOOT-02 | Phase 2 | Complete |
 | SEOP-01 | Phase 5 | Pending |
 | SEOP-02 | Phase 5 | Pending |
 | SEOP-03 | Phase 5 | Pending |

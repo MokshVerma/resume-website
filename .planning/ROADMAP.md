@@ -50,7 +50,7 @@ Plans:
 Plans:
 - [x] 02-01-PLAN.md -- Hero section with time-based greeting and CTAs, Experience section with timeline and metric highlighting
 - [x] 02-02-PLAN.md -- Skills chips grid, Projects glassmorphism cards, Education minimal display
-- [ ] 02-03-PLAN.md -- Footer with social icons in layout.tsx, page assembly wiring all sections together
+- [x] 02-03-PLAN.md -- Footer with social icons in layout.tsx, page assembly wiring all sections together
 **UI hint**: yes
 
 ### Phase 3: Navigation & Interactivity
