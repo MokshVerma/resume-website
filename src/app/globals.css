@@ -36,6 +36,11 @@
   --spacing: 0.25rem;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem; /* 80px = nav height, matches pt-20 on main */
+}
+
 /* Background gradient for visual depth (per D-04, DSGN-05) */
 body {
   background-color: var(--color-background);
