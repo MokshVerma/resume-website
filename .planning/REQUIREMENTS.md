@@ -29,18 +29,18 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Skills
 
-- [ ] **SKLL-01**: Skills section displays technical skills grouped by category (Languages, Databases, Streaming, Cloud, AI Tools, Methodologies)
-- [ ] **SKLL-02**: Skills are presented as visual chips/tags (not percentage bars)
+- [x] **SKLL-01**: Skills section displays technical skills grouped by category (Languages, Databases, Streaming, Cloud, AI Tools, Methodologies)
+- [x] **SKLL-02**: Skills are presented as visual chips/tags (not percentage bars)
 
 ### Projects
 
-- [ ] **PROJ-01**: Projects section showcases personal projects (Auto-Terminal, Song Hit Predictor 5000)
-- [ ] **PROJ-02**: Each project card shows name, tech stack chips, description, and GitHub link
-- [ ] **PROJ-03**: Project cards have interactive hover effects
+- [x] **PROJ-01**: Projects section showcases personal projects (Auto-Terminal, Song Hit Predictor 5000)
+- [x] **PROJ-02**: Each project card shows name, tech stack chips, description, and GitHub link
+- [x] **PROJ-03**: Project cards have interactive hover effects
 
 ### Education
 
-- [ ] **EDUC-01**: Education section displays degree, university, and graduation year
+- [x] **EDUC-01**: Education section displays degree, university, and graduation year
 
 ### Navigation
 
@@ -132,12 +132,12 @@ Which phases cover which requirements. Updated during roadmap creation.
 | EXPR-01 | Phase 2 | Complete |
 | EXPR-02 | Phase 2 | Complete |
 | EXPR-03 | Phase 2 | Complete |
-| SKLL-01 | Phase 2 | Pending |
-| SKLL-02 | Phase 2 | Pending |
-| PROJ-01 | Phase 2 | Pending |
-| PROJ-02 | Phase 2 | Pending |
-| PROJ-03 | Phase 2 | Pending |
-| EDUC-01 | Phase 2 | Pending |
+| SKLL-01 | Phase 2 | Complete |
+| SKLL-02 | Phase 2 | Complete |
+| PROJ-01 | Phase 2 | Complete |
+| PROJ-02 | Phase 2 | Complete |
+| PROJ-03 | Phase 2 | Complete |
+| EDUC-01 | Phase 2 | Complete |
 | NAVG-01 | Phase 3 | Pending |
 | NAVG-02 | Phase 3 | Pending |
 | NAVG-03 | Phase 3 | Pending |
