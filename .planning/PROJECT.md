@@ -26,11 +26,15 @@ Visitors can quickly understand Moksh's professional background and reach out �
 - ✓ Email delivery to mokshverma98@gmail.com via Resend — Phase 4
 - ✓ Client-side and server-side Zod validation with per-field errors — Phase 4
 - ✓ Rate limiting (1 per minute per IP) — Phase 4
+- ✓ SEO metadata, OG image, sitemap.xml, robots.txt — Phase 5
+- ✓ Custom 404 page — Phase 5
+- ✓ Scroll-triggered entrance animations (Framer Motion) — Phase 5
+- ✓ Deployed to Vercel with auto-deploy from GitHub — Phase 5
+- ✓ Lighthouse >90 all categories (97-100) — Phase 5
 
 ### Active
 
-- [ ] Deployed to mokshverma.in via Vercel
-- [ ] Fast loading, SEO-friendly (meta tags, Open Graph)
+- [ ] DNS configuration for mokshverma.in (pending GoDaddy A/CNAME records)
 
 ### Out of Scope
 
@@ -82,4 +86,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-03 after Phase 4 completion*
+*Last updated: 2026-04-03 after Phase 5 completion — v1.0 milestone complete*
