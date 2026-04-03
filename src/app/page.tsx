@@ -3,15 +3,26 @@ import { ExperienceSection } from "./_components/experience-section";
 import { SkillsSection } from "./_components/skills-section";
 import { ProjectsSection } from "./_components/projects-section";
 import { EducationSection } from "./_components/education-section";
+import { AnimatedSection } from "./_components/animated-section";
 
 export default function HomePage() {
   return (
     <>
-      <HeroSection />
-      <ExperienceSection />
-      <SkillsSection />
-      <ProjectsSection />
-      <EducationSection />
+      <AnimatedSection>
+        <HeroSection />
+      </AnimatedSection>
+      <AnimatedSection>
+        <ExperienceSection />
+      </AnimatedSection>
+      <AnimatedSection>
+        <SkillsSection />
+      </AnimatedSection>
+      <AnimatedSection>
+        <ProjectsSection />
+      </AnimatedSection>
+      <AnimatedSection>
+        <EducationSection />
+      </AnimatedSection>
     </>
   );
 }

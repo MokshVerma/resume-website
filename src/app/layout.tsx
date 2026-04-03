@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Footer } from "./_components/footer";
 import { Navigation } from "./_components/navigation";
+import { AnimatedSection } from "./_components/animated-section";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -60,7 +61,9 @@ export default function RootLayout({
         </header>
         <main role="main" className="pt-20">{children}</main>
         <footer role="contentinfo">
-          <Footer />
+          <AnimatedSection>
+            <Footer />
+          </AnimatedSection>
         </footer>
       </body>
     </html>
