@@ -15,9 +15,36 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Moksh Verma | Backend Engineer",
+  metadataBase: new URL("https://mokshverma.in"),
+  title: {
+    default: "Moksh Verma | Backend Engineer",
+    template: "%s | Moksh Verma",
+  },
   description:
-    "Backend Engineer with 5+ years of experience building distributed systems at scale.",
+    "Backend Engineer building scalable systems. 5+ years at Expedia, Gaana, Radio Mirchi.",
+  openGraph: {
+    type: "website",
+    url: "https://mokshverma.in",
+    title: "Moksh Verma | Backend Engineer",
+    description:
+      "Backend Engineer building scalable systems. 5+ years at Expedia, Gaana, Radio Mirchi.",
+    siteName: "Moksh Verma",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Moksh Verma - Backend Engineer",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Moksh Verma | Backend Engineer",
+    description:
+      "Backend Engineer building scalable systems. 5+ years at Expedia, Gaana, Radio Mirchi.",
+    images: ["/og.png"],
+  },
 };
 
 export default function RootLayout({

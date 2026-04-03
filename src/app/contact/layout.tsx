@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact | Moksh Verma",
-  description: "Get in touch with Moksh Verma - Backend Engineer",
+  title: "Contact",
+  description: "Get in touch with Moksh Verma.",
+  openGraph: {
+    title: "Contact | Moksh Verma",
+    description: "Get in touch with Moksh Verma.",
+  },
 };
 
 export default function ContactLayout({
