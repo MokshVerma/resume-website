@@ -97,7 +97,7 @@ Plans:
 Plans:
 - [x] 05-01-PLAN.md -- SEO metadata, OG image, sitemap, robots.txt, and custom 404 page
 - [x] 05-02-PLAN.md -- Framer Motion entrance animations with AnimatedSection wrapper for all sections
-- [ ] 05-03-PLAN.md -- GitHub repo creation, Vercel deployment at mokshverma.in, and Lighthouse audit
+- [x] 05-03-PLAN.md -- GitHub repo creation, Vercel deployment at mokshverma.in, and Lighthouse audit
 **UI hint**: yes
 
 ## Progress

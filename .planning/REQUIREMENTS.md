@@ -68,7 +68,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **SEOP-02**: Site has Open Graph image (1200x630) for rich previews on LinkedIn/Slack/Twitter
 - [x] **SEOP-03**: Site has sitemap.xml and robots.txt
 - [x] **SEOP-04**: Site has a custom 404 page
-- [ ] **SEOP-05**: Lighthouse score > 90 on Performance, Accessibility, Best Practices, SEO
+- [x] **SEOP-05**: Lighthouse score > 90 on Performance, Accessibility, Best Practices, SEO
 
 ### Animations
 
@@ -78,8 +78,8 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Deployment
 
-- [ ] **DEPL-01**: Site is deployed to Vercel and accessible at mokshverma.in
-- [ ] **DEPL-02**: Auto-deploys from GitHub on push to main branch
+- [x] **DEPL-01**: Site is deployed to Vercel and accessible at mokshverma.in
+- [x] **DEPL-02**: Auto-deploys from GitHub on push to main branch
 
 ## v2 Requirements
 
@@ -153,12 +153,12 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SEOP-02 | Phase 5 | Complete |
 | SEOP-03 | Phase 5 | Complete |
 | SEOP-04 | Phase 5 | Complete |
-| SEOP-05 | Phase 5 | Pending |
+| SEOP-05 | Phase 5 | Complete |
 | ANIM-01 | Phase 5 | Complete |
 | ANIM-02 | Phase 5 | Complete |
 | ANIM-03 | Phase 5 | Complete |
-| DEPL-01 | Phase 5 | Pending |
-| DEPL-02 | Phase 5 | Pending |
+| DEPL-01 | Phase 5 | Complete |
+| DEPL-02 | Phase 5 | Complete |
 
 **Coverage:**
 - v1 requirements: 38 total
