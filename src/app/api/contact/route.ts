@@ -2,7 +2,15 @@ import { type NextRequest } from "next/server";
 import { Resend } from "resend";
 import { contactSchema } from "@/lib/contact-schema";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+export const dynamic = "force-dynamic";
+
+function getResendClient(): Resend {
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) {
+    throw new Error("RESEND_API_KEY environment variable is not set");
+  }
+  return new Resend(apiKey);
+}
 
 // In-memory rate limit store
 const rateLimitMap = new Map<string, number>();
@@ -94,6 +102,7 @@ export async function POST(request: NextRequest) {
     // Step 3: Send email via Resend
     const { name, email, message } = result.data;
 
+    const resend = getResendClient();
     const { error } = await resend.emails.send({
       from: "Portfolio Contact <onboarding@resend.dev>",
       to: "mokshverma98@gmail.com",
