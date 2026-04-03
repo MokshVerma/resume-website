@@ -64,10 +64,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### SEO & Performance
 
-- [ ] **SEOP-01**: Each page has proper meta tags (title, description) via Next.js Metadata API
-- [ ] **SEOP-02**: Site has Open Graph image (1200x630) for rich previews on LinkedIn/Slack/Twitter
-- [ ] **SEOP-03**: Site has sitemap.xml and robots.txt
-- [ ] **SEOP-04**: Site has a custom 404 page
+- [x] **SEOP-01**: Each page has proper meta tags (title, description) via Next.js Metadata API
+- [x] **SEOP-02**: Site has Open Graph image (1200x630) for rich previews on LinkedIn/Slack/Twitter
+- [x] **SEOP-03**: Site has sitemap.xml and robots.txt
+- [x] **SEOP-04**: Site has a custom 404 page
 - [ ] **SEOP-05**: Lighthouse score > 90 on Performance, Accessibility, Best Practices, SEO
 
 ### Animations
@@ -149,10 +149,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | CNTC-05 | Phase 4 | Complete |
 | FOOT-01 | Phase 2 | Complete |
 | FOOT-02 | Phase 2 | Complete |
-| SEOP-01 | Phase 5 | Pending |
-| SEOP-02 | Phase 5 | Pending |
-| SEOP-03 | Phase 5 | Pending |
-| SEOP-04 | Phase 5 | Pending |
+| SEOP-01 | Phase 5 | Complete |
+| SEOP-02 | Phase 5 | Complete |
+| SEOP-03 | Phase 5 | Complete |
+| SEOP-04 | Phase 5 | Complete |
 | SEOP-05 | Phase 5 | Pending |
 | ANIM-01 | Phase 5 | Pending |
 | ANIM-02 | Phase 5 | Pending |
