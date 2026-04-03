@@ -22,10 +22,13 @@ Visitors can quickly understand Moksh's professional background and reach out �
 - ✓ Mobile hamburger menu with full-screen overlay — Phase 3
 - ✓ Scroll spy active section highlighting — Phase 3
 - ✓ Smooth scroll navigation — Phase 3
+- ✓ Separate contact page with validated form — Phase 4
+- ✓ Email delivery to mokshverma98@gmail.com via Resend — Phase 4
+- ✓ Client-side and server-side Zod validation with per-field errors — Phase 4
+- ✓ Rate limiting (1 per minute per IP) — Phase 4
 
 ### Active
 
-- [ ] Separate contact page with a form that sends submissions via email
 - [ ] Deployed to mokshverma.in via Vercel
 - [ ] Fast loading, SEO-friendly (meta tags, Open Graph)
 
@@ -79,4 +82,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-01 after Phase 3 completion*
+*Last updated: 2026-04-03 after Phase 4 completion*
