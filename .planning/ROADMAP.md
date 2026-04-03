@@ -93,7 +93,11 @@ Plans:
   3. Content sections have scroll-triggered entrance animations (fade-in, slide-up) that are subtle (200-400ms), never block content, and are disabled when the user has prefers-reduced-motion enabled
   4. The site is deployed to Vercel, accessible at mokshverma.in, and auto-deploys from GitHub on push to main
   5. Lighthouse scores exceed 90 on Performance, Accessibility, Best Practices, and SEO
-**Plans**: TBD
+**Plans:** 3 plans
+Plans:
+- [ ] 05-01-PLAN.md -- SEO metadata, OG image, sitemap, robots.txt, and custom 404 page
+- [ ] 05-02-PLAN.md -- Framer Motion entrance animations with AnimatedSection wrapper for all sections
+- [ ] 05-03-PLAN.md -- GitHub repo creation, Vercel deployment at mokshverma.in, and Lighthouse audit
 **UI hint**: yes
 
 ## Progress
@@ -108,4 +112,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 | 2. Content Sections & Home Page | 0/3 | Planning complete | - |
 | 3. Navigation & Interactivity | 0/1 | Planning complete | - |
 | 4. Contact Form & Email Delivery | 0/2 | Planning complete | - |
-| 5. SEO, Animations & Deployment | 0/TBD | Not started | - |
+| 5. SEO, Animations & Deployment | 0/3 | Planning complete | - |
