@@ -72,9 +72,9 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Animations
 
-- [ ] **ANIM-01**: Sections have scroll-triggered entrance animations (fade-in, slide-up) via Framer Motion
-- [ ] **ANIM-02**: Animations respect `prefers-reduced-motion` media query
-- [ ] **ANIM-03**: Animations are subtle (200-400ms duration) and never block content
+- [x] **ANIM-01**: Sections have scroll-triggered entrance animations (fade-in, slide-up) via Framer Motion
+- [x] **ANIM-02**: Animations respect `prefers-reduced-motion` media query
+- [x] **ANIM-03**: Animations are subtle (200-400ms duration) and never block content
 
 ### Deployment
 
@@ -154,9 +154,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SEOP-03 | Phase 5 | Complete |
 | SEOP-04 | Phase 5 | Complete |
 | SEOP-05 | Phase 5 | Pending |
-| ANIM-01 | Phase 5 | Pending |
-| ANIM-02 | Phase 5 | Pending |
-| ANIM-03 | Phase 5 | Pending |
+| ANIM-01 | Phase 5 | Complete |
+| ANIM-02 | Phase 5 | Complete |
+| ANIM-03 | Phase 5 | Complete |
 | DEPL-01 | Phase 5 | Pending |
 | DEPL-02 | Phase 5 | Pending |
 
