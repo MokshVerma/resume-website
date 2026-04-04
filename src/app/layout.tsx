@@ -4,6 +4,7 @@ import "./globals.css";
 import { Footer } from "./_components/footer";
 import { Navigation } from "./_components/navigation";
 import { AnimatedSection } from "./_components/animated-section";
+import { Analytics } from "@vercel/analytics/react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -65,6 +66,7 @@ export default function RootLayout({
             <Footer />
           </AnimatedSection>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
