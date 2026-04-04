@@ -11,9 +11,7 @@ export default function HomePage() {
       <AnimatedSection>
         <HeroSection />
       </AnimatedSection>
-      <AnimatedSection>
-        <ExperienceSection />
-      </AnimatedSection>
+      <ExperienceSection />
       <AnimatedSection>
         <SkillsSection />
       </AnimatedSection>
